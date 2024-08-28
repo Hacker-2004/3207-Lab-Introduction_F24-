@@ -35,8 +35,8 @@ char* rand_string_alloc(size_t size)
 int main(){
     // the current time
     srand(time(0));
-    
-    // sets the size of the string 
+
+    //sets the size of the string 
     size_t size = 7;
 
     // the allocation memory function and to get the word
